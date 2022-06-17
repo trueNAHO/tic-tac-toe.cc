@@ -4,7 +4,7 @@ This minimalistic version of Tic Tac Toe was created with the sole intention to 
 
 The `main` file was compiled on my personal laptop. Feel free to clone this repo and compile it yourself.
 
-Here is an exaple:
+Here is an example:
 ```
 Enter number of players: 3
 
