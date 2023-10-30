@@ -1,9 +1,37 @@
-# Tic Tac Toe
+= Tic Tac Toe
+:toc:
 
-This minimalistic version of Tic Tac Toe was created with the sole intention to try out C++ and get used to it. It can have any number of players and the field size is also variable. The game can restart itself, without having to restart the application itself. This mini-game makes use of pointers, classes and simple templates I created. It also tries to handle possible errors the user input could provoke. The code is also mostly refactored.
+== About
 
-Here is an example:
-```
+Minimalistic https://en.wikipedia.org/wiki/Tic-tac-toe[Tic-tac-toe]
+implementation for experimenting with https://isocpp.org[C++].
+
+=== Functional Features
+
+* Variable number of players
+* Variable player names
+* Variable field dimensions
+* Start new games without restarting the application
+
+=== Non-Functional Features
+
+* C++ best practices
+* Gracefully handle invalid user input
+* Overengineered architecture to explore C++ functionalities
+
+== Usage
+
+To compile and run the application with https://gcc.gnu.org/[gcc], run:
+
+[,bash]
+----
+gcc -o tic-tac-toe src/main.cc
+./tic-tac-toe
+----
+
+== Demo
+
+----
 Enter number of players: 3
 
 Player #1 enter your name: Player_1
@@ -97,4 +125,14 @@ Enter rows (1 to 2) and colums (1 to 4) position in space seperated format: 1 4
 >>> DRAW
 
 Play again? [y/n] n
-```
+----
+
+== Contributing
+
+To contribute, please review link:docs/contributing.adoc[our contribution
+guidelines].
+
+== License
+
+This project is licensed under link:LICENSE[GNU GENERAL PUBLIC LICENSE Version
+3].
