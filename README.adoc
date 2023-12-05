@@ -127,6 +127,11 @@ Enter rows (1 to 2) and colums (1 to 4) position in space seperated format: 1 4
 Play again? [y/n] n
 ----
 
+== See Also
+
+* https://github.com/trueNAHO/tic-tac-toe.rs[Minimalistic Tic-Tac-Toe
+  implementation for experimenting with Rust]
+
 == Contributing
 
 To contribute, please review link:docs/contributing.adoc[our contribution
